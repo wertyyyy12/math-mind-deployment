@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "math-mind-376900",
+  "private_key_id": "b2a57ea48c2e37a28348cdc5b8db52c81f1bb219",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmlTv4h1gvq+wW\nsvKqtOjMz8Y9kgid6jlS81rXLm6GZvJIIfknC/ikeOkQk9qW8VsCcRS8r9/tLY9g\nACkDMYa3HoFJBy6BEpJ+/TMSneK+xPjToNSPNbomfWAowAD8X+ApSfNIgAuNRfQI\nzMaBbPia6s/8Vm9BaSdCf7KBH4LBjjNIi936s7uVjJEQPRBHkcPyDGKy6TsiE7at\n+SKUdzKdWkjcxpOHZ7x09F1jQYU8DVHuDdOpvTNX0dKKOYE1WO3cBMOOYYq5drSh\n1p7t6r/5kIa8OvNlEB8e3yg6fObdL522quDAkfDEfJN3y3MoOOpr63A3uJkI9S6x\nvexpwFJNAgMBAAECggEAEvg1jxSihzM1vFP+bFATnpcehQ5nKsxsYLTTqGNiNK3u\ncyZjP/4N/3TBXaDoqH2tlnaYHPCOOG0SwaTjBrkSFTJFGLLXqd0aj5l3wmv2UTEP\nANJ0wiYlH5Lxa1KKCjNEzI7eRGhIaHsJ0iK3jC+Dk+ifbKXPH4zA6sKt6iRTeITw\n6S95dURvDW2iW2JeI+vdVNAKznlPSyJUfpV0zUyFn8orRt94OB5nMNQmv8e1Gm8r\nJFhibWK+WlXTr6d4YzGPZzhSlDtlKF1sENi8nUpstqCXKoa0tDnpSpdFbhbyZxCz\nCLg+xFCJXKw185t726q9B49VOgHLl1prcR+nmdpeBQKBgQDS0Gm4OK6pTWMFF1x6\nkgH/e7qJXF4HgcX2KLKNR5JoIGTX0bc5DtsBWHw4ZmbCcOlylNJhvZJn8CrfNQJJ\nB4TnWOgsizurbA8T+ETZyVtTLPmdSJ3I+U5fMKgLjIZA33OqVrxUgrYcCPHIyT3H\nzI2Jwt1gD/7jmd1ecEBlY4JojwKBgQDKSc/MnUkVGXP01Z+qlu3ijn1+sWhBXcUI\n5ucJj2UwJnRtZ9tqieKuuFQSmpip9B9TIunHRnIVkHdNtCAh5NWMb9fR9ZlsmlNX\nCjTc6d4DE7AzMrfGzwHgtOBcMgy47P20jWhOIoJYwYaETJrKkXg+LRKzhs+13/K0\nhU2dv+NtYwKBgQCI3W4FgCdFG0zSHVyY5voNGBL+4szZKtOPANULDBBtMbrGswy1\nKoPc18muBC1qx0uIbD453o2SlUYAK7YUG6GZYQs7ABn5LOqNGH36ttNnqKdWCbMG\nq3TKMBiphs4Sh//b8vvKEiKRCO2QYbaOZKrvaWe32iqtMVOa4F2udXBQ2QKBgQCq\nDGp2ozGwXvkvM/VIvh+zd/ze59uwN1dPKGvHiZeSZoExB0FXyhmYrrNeAD+dfu5m\nQM8tCXcV0Z+43la0p10s9UgD4+XZedHdNWNC4gYTqBVStKvwoEv/zY1dc2VmfzK2\n+LhaFoBkhCrERHFLIAZonhM+f3FUfrHUNssMdSaF6QKBgCjOQU+lhvH++ojeHUu7\nMVR/uldB+U0AHcPL2a9DFUXbHtQ+dLj1F54oswc8PSiKWu8GHbXIEmdtEAfvxwz/\ndi90LK2UDljrAz0SFgfCwbyRbhMl4ZU4nzOVDtlCqWCb7e0yJAugIq5NLfqRriNO\nz/AtXXbukAZqV9JTJJX7AZA3\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-acc-math-mind@math-mind-376900.iam.gserviceaccount.com",
+  "client_id": "114764679892972532438",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-acc-math-mind%40math-mind-376900.iam.gserviceaccount.com"
+}
