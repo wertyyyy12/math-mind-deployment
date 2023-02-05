@@ -1,12 +1,6 @@
-import base64
-import io
 import os
-import re
 
-import cv2
 import openai
-import pytesseract
-import requests
 import whisper
 from dotenv import load_dotenv
 from flask import Flask, request
@@ -101,7 +95,8 @@ def root():
 
     info = image_to_text(imgFile)
 
-    wolframKey = SecuredAuthenticationKey('NAh6jwqC/QsPX9xli7BldYZuKzo8hXklH2qkDUCrtQc=', 'P/AHQIyKf4Tnrcj4NbOaQYUVvlKFpYZ+vkHPjdvJm6Q=')
+    wolframKey = SecuredAuthenticationKey(
+        'NAh6jwqC/QsPX9xli7BldYZuKzo8hXklH2qkDUCrtQc=', 'P/AHQIyKf4Tnrcj4NbOaQYUVvlKFpYZ+vkHPjdvJm6Q=')
     session = WolframCloudSession(credentials=wolframKey)
     session.start()
 
@@ -125,7 +120,7 @@ def root():
             break
 
     print("made it past here")
-    
+
     pt = find_error_prompt(errors[0], errors[1], steps, question)
 
     print(steps)
@@ -147,9 +142,11 @@ def root():
         # "info": info
     }
 
+
 def find_error_prompt(eq1: str, eq2: str, steps, question) -> str:
     formattedQ = question.replace("==", "=")
     return f"Here are the steps a student took to solve {formattedQ} for x, with each equation separated by a semicolon: " + ';'.join(steps) + ". The first erroneous step of a student's algebraic work is when equation " + f"'{eq1}'" + " is rewritten as " + f"'{eq2}'." + ". Explain the student's mistake, then, generate key word(s) about the mistake starting with 'keywords: '."
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=7000)
